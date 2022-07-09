@@ -8,16 +8,24 @@ h3,
 h4,
 p,
 a,
-button {
+button, ul, li {
   margin: 0;
   padding: 0;
 }
 
 body {
+  display: flex;
+  justify-content: center;
   font-family: "Roboto", sans-serif;
   color: #514d67;
   background-color: #f4f6fc;
+  width: 100vw;
+  max-width: 1440px;
 }
+
+ul, li {
+  list-style-type: none;
+  }
 
 a,
 a:hover,
@@ -29,6 +37,10 @@ a:active {
 
 a:hover {
   color: #072ac8;
+}
+
+button a {
+  color: white;
 }
 
 button {
