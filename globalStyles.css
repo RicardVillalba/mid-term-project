@@ -40,7 +40,11 @@ a:hover {
 }
 
 button a {
-  color: white;
+  color: #ffffff;
+}
+
+button a:hover {
+  color: #ffffff;
 }
 
 button {
