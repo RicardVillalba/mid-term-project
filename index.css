@@ -21,9 +21,68 @@ ul a {
     color: #A2D6F9;
   }
 
-.heroSection {
-    margin-top: 61px;
+.heroContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
 }
 
+.heroLeftContainer {
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
-  
+.heroBtnContainer {
+    display: flex;
+}
+
+.seeWork {
+    background-color: transparent;
+    padding-left: 0;
+}
+
+.seeWork:hover {
+    background-color: transparent;
+}
+
+.seeWork a {
+    color: #514d67;
+}
+.seeWork a:hover {
+    color: #514d67;
+}
+
+.heroRightContainer {
+    position: relative;
+    width: 50%;
+}
+
+.heroBg {
+    width: 100%;
+
+}
+  .heroCard1 {
+    width: 47%;
+    position: absolute;
+    top: 0;
+    left: -14%;
+  }
+  .heroCard2 {
+    width: 50%;
+    position: absolute;
+    bottom: -22%;
+    right: -22%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .heroContainer {
+        display: flex;
+        flex-direction: column;
+    }
+  }
