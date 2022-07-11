@@ -8,14 +8,22 @@ h3,
 h4,
 p,
 a,
-button, ul, li {
+button,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
 
-body {
+html {
   display: flex;
   justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   color: #514d67;
   background-color: #f4f6fc;
@@ -23,9 +31,10 @@ body {
   max-width: 1440px;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
-  }
+}
 
 a,
 a:hover,
@@ -132,4 +141,93 @@ h4 {
 .caption2Regular {
   line-height: 15.23px;
   font-size: 13px;
+}
+
+.burger {
+  display: none;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.mobileNav{
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .desktopNav {
+    display: none;
+  }
+
+  .mobileNav{
+    position: absolute;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+  }
+
+
+
+  .navUpperContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 61px
+  }
+
+  .navUpperContainer img {
+    height: 30%;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 20;
+    width: 12%;
+    height: 100%;
+  }
+  
+  .burger.open {
+    background-color: gainsboro;
+  }
+
+  .burger span {
+    display: block;
+    width: 30%;
+    height: 2px;
+    margin: 2px;
+    background: black;
+    z-index: 20;
+  }
+
+  .sideLinks {
+    display: none;
+  }
+  
+  .sideLinks.open {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100vw;
+    height: 20%;
+  }
+  
+  .sideLinks {
+    transition: left ease-in 0.3s;
+  }
+
 }
