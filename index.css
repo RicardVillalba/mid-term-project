@@ -91,6 +91,13 @@ ul a {
   padding: 0 5%;
 }
 
+#cards div {
+  width: 300px;
+}
+#cards div img {
+  width: 300px;
+}
+
 @media only screen and (max-width: 700px) {
   .heroContainer {
     display: flex;
