@@ -27,6 +27,7 @@ ul a {
   align-items: center;
   width: 80%;
   height: 20%;
+  margin-bottom: 90px;
 }
 
 .heroLeftContainer {
@@ -95,6 +96,7 @@ ul a {
   width: 80%;
   height: 561px;
   margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 #cards {
@@ -105,7 +107,7 @@ ul a {
   width: 340px;
   height: 444px;
   background-color: #ffffff;
-  box-shadow: 3px 3px 10px #aaaaaa;
+  box-shadow: 1px 1px 10px #aaaaaa;
 
 }
 #cards div img {
@@ -125,6 +127,9 @@ ul a {
  margin-left: 30px;
 }
 
+#testimonials {
+  height: 622px;
+}
 
 @media only screen and (max-width: 700px) {
   .heroContainer {
