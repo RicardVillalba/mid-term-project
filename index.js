@@ -22,10 +22,10 @@ const card = document.querySelector('#cards');
 projects.forEach((project)=>{
   card.innerHTML=`
   <div>
-  <img src="${project.img}" alt="">
-  <h3>${project.name}</h3>
-  <p>${project.description}</p>
-  <a href="${project.link}"></a>
+  <img src="${project.img}" alt="project img">
+  <p class="bodyMedium">${project.name}</p>
+  <article class="headlineRegular">${project.description}</article>
+  <a href="${project.link}">Learn more</a>
 </div>
   `
   console.log(project);
@@ -54,15 +54,3 @@ projects.forEach((project)=>{
   // listLink.appendChild(projectLink);
 
 
-
-  // for (let i = 0; i < projects.length; i++) {
-  //   const card = document.querySelector('#cards');
-  //   card.innerHTML=`
-  //   <img src="${projects.img}" alt="">
-  //   <h3>${projects.name}</h3>
-  //   <p>${projects.description}</p>
-  //   <a href="${projects.link}"></a>
-  //   `
-  //   console.log(projects);
-  //   }
-    
