@@ -20,7 +20,7 @@ const projects = [
 ];
 const card = document.querySelector('#cards');
 projects.forEach((project)=>{
-  card.innerHTML=`
+  card.innerHTML+=`
   <div>
   <img src="${project.img}" alt="project img">
   <p class="bodyMedium">${project.name}</p>

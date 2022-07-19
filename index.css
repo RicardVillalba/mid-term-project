@@ -101,6 +101,8 @@ ul a {
 
 #cards {
   margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #cards div {
@@ -218,6 +220,55 @@ line-height: 15.23px;
   height: 150px;
   bottom: 73px;
   right: 72px;
+}
+
+#services {
+  width: 80%;
+  height: 561px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#servicesCards {
+
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#servicesCards div {
+  width: 340px;
+  height: 380px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 10px #aaaaaa;
+
+}
+#servicesCards div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
+  margin-top: 40px;  
+  margin-bottom: 30px;
+  background-color: #ECF7FF;
+  border-radius: 50%;
+}
+#servicesCards div div img {
+  width: 35px;
+  height: 35px;
+}
+#servicesCards div p {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+#servicesCards div article {
+ margin-bottom: 54px;
+ margin-left: 30px;
+}
+#servicesCards div a {
+ margin-left: 30px;
 }
 
 @media only screen and (max-width: 700px) {
