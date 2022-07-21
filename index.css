@@ -110,8 +110,8 @@ ul a {
   height: 444px;
   background-color: #ffffff;
   box-shadow: 1px 1px 10px #aaaaaa;
-
 }
+
 #cards div img {
   width: 340px;
   height: 240px;
@@ -122,11 +122,11 @@ ul a {
   margin-left: 30px;
 }
 #cards div article {
- margin-bottom: 54px;
- margin-left: 30px;
+  margin-bottom: 54px;
+  margin-left: 30px;
 }
 #cards div a {
- margin-left: 30px;
+  margin-left: 30px;
 }
 
 #testimonials {
@@ -135,8 +135,8 @@ ul a {
   align-items: center;
   width: 100%;
   height: 622px;
-  
-  background-color: #292E47;
+
+  background-color: #292e47;
   position: relative;
 }
 
@@ -144,17 +144,16 @@ ul a {
   position: absolute;
   top: 120px;
   width: 621px;
-  color: #F4F6FC;
+  color: #f4f6fc;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.88px;
-
 }
 #testimonials article {
   position: absolute;
   top: 271px;
   width: 596px;
-  color: #FFC600;
+  color: #ffc600;
   font-size: 24px;
   font-weight: 500;
   line-height: 38.4px;
@@ -163,10 +162,10 @@ ul a {
 .profileContainer {
   position: absolute;
   top: 452px;
- display: flex;
- justify-content: space-between;
- align-items: center;
- width: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12%;
 }
 .profileContainer img {
   width: 50px;
@@ -180,17 +179,17 @@ ul a {
 }
 
 .profileContainer div p {
-color: #A2D6F9; 
-font-weight: 400;
-font-size: 17px;
-line-height: 17px;
+  color: #a2d6f9;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
 }
 
 .profileContainer div a {
-color: #F4F6FC; 
-font-weight: 400;
-font-size: 13px;
-line-height: 15.23px;
+  color: #f4f6fc;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15.23px;
 }
 
 .memoji_1 {
@@ -230,7 +229,6 @@ line-height: 15.23px;
 }
 
 #servicesCards {
-
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
@@ -241,7 +239,6 @@ line-height: 15.23px;
   height: 380px;
   background-color: #ffffff;
   box-shadow: 1px 1px 10px #aaaaaa;
-
 }
 #servicesCards div div {
   display: flex;
@@ -250,9 +247,9 @@ line-height: 15.23px;
   width: 80px;
   height: 80px;
   margin-left: 30px;
-  margin-top: 40px;  
+  margin-top: 40px;
   margin-bottom: 30px;
-  background-color: #ECF7FF;
+  background-color: #ecf7ff;
   border-radius: 50%;
 }
 #servicesCards div div img {
@@ -264,11 +261,43 @@ line-height: 15.23px;
   margin-left: 30px;
 }
 #servicesCards div article {
- margin-bottom: 54px;
- margin-left: 30px;
+  margin-bottom: 54px;
+  margin-left: 30px;
 }
 #servicesCards div a {
- margin-left: 30px;
+  margin-left: 30px;
+}
+
+#questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-color: #ffc600;
+}
+
+.questionsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 227px;
+}
+
+#questions form {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.questionsEmail {
+  width: 393px;
+  height: 80px;
+  color: #292e47;
+  padding-left: 70px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -277,7 +306,7 @@ line-height: 15.23px;
     flex-direction: column;
     justify-content: space-between;
     width: 80%;
-    height: 42%;
+    height: 12%;
     margin-top: 16%;
   }
 
@@ -337,9 +366,9 @@ line-height: 15.23px;
   }
 
   .logosContainer {
-    margin-top: 7%;
+    margin-top: 3%;
     width: 80%;
-    height: 10%;
+    height: 3%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -349,9 +378,171 @@ line-height: 15.23px;
   .logosContainer :nth-child(5) {
     display: none;
   }
-  
+
   .logosContainer img {
     width: 110px;
-    padding:  5%;
+    padding: 5%;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1561px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #cards {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  #cards div {
+    width: 100%;
+    height: 444px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #aaaaaa;
+    margin-bottom: 20px;
+  }
+
+  #cards div img {
+    width: 100%;
+    height: 240px;
+    margin-bottom: 30px;
+  }
+
+  #testimonials {
+    width: 100%;
+    height: 450px;
+  }
+
+  #testimonials h3 {
+    top: 50px;
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+  }
+  #testimonials article {
+    position: absolute;
+    top: 200px;
+    width: 80%;
+    color: #ffc600;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .profileContainer {
+    position: absolute;
+    top: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+  }
+  .profileContainer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .profileContainer div {
+    top: 452px;
+    width: 111px;
+  }
+
+  .profileContainer div p {
+    color: #a2d6f9;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+  }
+
+  .profileContainer div a {
+    color: #f4f6fc;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.23px;
+  }
+
+  .memoji_1,
+  .memoji_2,
+  .memoji_3,
+  .memoji_4 {
+    display: none;
+  }
+
+  #services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1061px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+
+  #servicesCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  #servicesCards div {
+    width: 360px;
+    height: 380px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #aaaaaa;
+    margin-bottom: 20px;
+  }
+
+  #questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #ffc600;
+    margin-top: 136px;
+  }
+
+  .questionsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 350px;
+  }
+  .questionsContainer h3 {
+    font-size: 30px;
+  }
+
+  #questions form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 50%;
+    padding-top: 10%;
+  }
+
+  .questionsEmail {
+    width: 100%;
+    height: 80px;
+    color: #292e47;
+    padding-left: 30px;
+  }
+
+  .submitBtn {
+    height: 80px;
   }
 }

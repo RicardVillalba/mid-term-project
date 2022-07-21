@@ -58,7 +58,7 @@ button a:hover {
   color: #ffffff;
 }
 
-button {
+button, .submitBtn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -73,7 +73,7 @@ button {
   border: none;
 }
 
-button:hover {
+button:hover, .submitBtn:hover {
   background-color: #292e47;
   color: #ffffff;
 }
@@ -237,5 +237,12 @@ h4 {
     to {
       height: 20%;
     }
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  body {
+    height: 7000px;
   }
 }
