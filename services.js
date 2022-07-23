@@ -31,7 +31,7 @@ services.forEach((service)=>{
   <a href="${service.link}">Learn more</a>
 </div>
   `
-  console.log(service);
+  // console.log(service);
 })
 
 
