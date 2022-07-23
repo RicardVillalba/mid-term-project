@@ -3,11 +3,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 2</title>
+    <title>Project 1</title>
     <link rel="stylesheet" href="../../globalStyles.css">
+    <link rel="stylesheet" href="../../index.css">
     <link rel="stylesheet" href="project.css">
+
 </head>
 <body>
-    
+    <nav class="desktopNav">
+        <a class="home" href="/index.html">
+          <img src="../../assets/logo.svg" alt="logo"
+        /></a>
+        <ul class="headlineMedium">
+          <li><a class="home" href="./index.html">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="/pages/contactUsPage/contactUs.html">Services</a></li>
+        </ul>
+        <button>
+          <a href="./pages/contactUsPage/contactUs.html">Contact Us</a>
+        </button>
+      </nav>
+      <nav class="mobileNav">
+        <div class="navUpperContainer">
+          <a class="home" href="/index.html">
+            <img src="../../assets/logo.svg" alt="logo"
+          /></a>
+          <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <ul class="headlineMedium sideLinks">
+          <li><a class="home" href="./index.html">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+      </nav>
+<section id="project">
+
+</section>
+
+
+
+
+    <section id="projects">
+        <h3>Other Projects</h3>
+        <div id="cards"></div>
+      </section>
+      <section id="projectQuestions">
+        <div class="questionsContainer">
+          <h3>Do you have any questions?</h3>
+          <p>Let us help you!</p>
+          <form>
+            <input
+              class="questionsEmail headlineRegular"
+              type="email"
+              name="enterYourEmail"
+              placeholder="Enter your email"
+              id="email"
+            />
+            <input class="submitBtn" type="submit" value="submit" />
+          </form>
+        </div>
+      </section>
+  
+      <section id="footer">
+        <div class="footerLeftContainer">
+          <img src="../../assets/logo.svg" alt="logofooter" />
+          <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+        </div>
+        <div class="footerRightContainer">
+          <div>
+            <p>Team</p>
+            <p>Services</p>
+            <p>About Us</p>
+          </div>
+          <div>
+            <p>Press</p>
+            <p>Projects</p>
+            <p>Privacy Policy</p>
+          </div>
+        </div>
+      </section>
+      <script src="../../navbar.js"></script>
+      <script src="./project2.js"></script>
 </body>
 </html>

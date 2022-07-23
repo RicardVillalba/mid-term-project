@@ -5,3 +5,8 @@ burger.addEventListener("click", (e) => {
   sideLinks.classList.toggle("open");
   burger.classList.toggle("open");
 });
+
+home.addEventListener("click", (e) => {
+  sideLinks.classList.toggle("open");
+  burger.classList.toggle("open");
+});

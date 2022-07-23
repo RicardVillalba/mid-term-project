@@ -1,5 +1,5 @@
 const project = document.querySelector("#project");
-fetch("https://jsonplaceholder.typicode.com/posts/1")
+fetch("https://jsonplaceholder.typicode.com/posts/2")
   .then((response) => response.json())
   .then(
     (json) =>
@@ -12,7 +12,7 @@ fetch("https://jsonplaceholder.typicode.com/posts/1")
       <p><span>Completed on</span> June 22, 2021</p>
   </div>
   <div class="projectContent">
-      <img src="../../assets/projects-section/1.jpg" alt="img1">
+      <img src="../../assets/projects-section/2.jpg" alt="img1">
       <div>
           <p>${json.body}</p>
           <p>${json.body}</p>
