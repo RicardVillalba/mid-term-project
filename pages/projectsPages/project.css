@@ -1,0 +1,34 @@
+#project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.projectContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.projectContent img {
+    width: 80%;
+    height: 444px;
+}
+
+#projectQuestions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+    background-color: #ffc600;
+    margin-top: 136px;
+  }
+
+
+
+
+@media only screen and (max-width: 700px) {}
