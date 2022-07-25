@@ -1,22 +1,18 @@
-const form = document.getElementById('contactUs');
+const form = document.getElementById('questionsForm');
 
 form.addEventListener('submit', callbackFunction);
                       
 function callbackFunction(event) {
     event.preventDefault();
     const myFormData = new FormData(event.target);
-
     const formDataObj = {};
     myFormData.forEach((value, key) => (formDataObj[key] = value));
-    
+    console.log(formDataObj);
 
     fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST',
   body: JSON.stringify({
-    name: formDataObj.name,
-    email: formDataObj.email,
-    phone: formDataObj.phone,
-    message: formDataObj.message,
+    email: formDataObj,
   }),
   headers: {
     'Content-type': 'application/json; charset=UTF-8',
@@ -26,8 +22,3 @@ function callbackFunction(event) {
   .then((json) => console.log(json));
   form.reset()
 };
-
-
-
-
-

@@ -118,15 +118,16 @@
       <div class="questionsContainer">
         <h3>Do you have any questions?</h3>
         <p>Let us help you!</p>
-        <form>
+        <form id="questionsForm">
+          <div class="form-control">
           <input
             class="questionsEmail headlineRegular"
             type="email"
-            name="enterYourEmail"
+            name="Email"
             placeholder="Enter your email"
             id="email"
-          />
-          <input class="submitBtn" type="submit" value="submit" />
+          /></div>
+          <button class="submitBtn" type="submit">Submit</button>
         </form>
       </div>
     </section>
@@ -153,5 +154,6 @@
     <script src="./navbar.js"></script>
     <script src="./projects.js"></script>
     <script src="./services.js"></script>
+    <script src="./questions.js"></script>
   </body>
 </html>
