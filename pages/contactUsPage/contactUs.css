@@ -24,3 +24,11 @@ ul a {
 .heroSection {
     margin-top: 61px;
 }
+
+form {
+    margin-top: 300px;
+}
+
+.midleContainer {
+    display: flex;
+}

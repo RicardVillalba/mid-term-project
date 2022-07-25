@@ -36,7 +36,38 @@
         <li><a href="./contactUs.html">Services</a></li>
       </ul>
     </nav>
-    <h1 class="heroSection">contact us</h1>
+
+
+
+    <h1>Contact Us</h1>
+    <form id="contact-form">
+      <div class="form-control">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your full name" />
+      </div>
+      <div class="midleContainer">
+        <div class="form-control">
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email address" />
+      </div>
+        <div class="form-control">
+          <label for="Phone">Phone</label>
+          <input id="phone" name="phone" type="tel" placeholder="Enter your phone number" />
+      </div>
+      </div>
+
+      <div class="form-control">
+          <label for="message">Enter a Message</label>
+          <textarea id="message" name="message" rows="6" cols="65" placeholder="Write your message here ...."></textarea>
+      </div>
+      <button class="btn" type="submit">Submit</button>
+  </form>
+
+
+
+
+
     <script src="../../navbar.js"></script>
+    <script src="./contactUs.js"></script>
   </body>
 </html>
