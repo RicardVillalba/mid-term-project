@@ -6,6 +6,7 @@
     <title>Contact us</title>
     <link rel="stylesheet" href="../../globalStyles.css" />
     <link rel="stylesheet" href="contactUs.css" />
+    <link rel="stylesheet" href="../../index.css">
   </head>
   <body>
     <nav class="desktopNav">
@@ -38,7 +39,7 @@
     </nav>
 
 
-
+<div class="contactContainer" >
     <h1>Contact Us</h1>
     <form id="contactUs">
       <div class="form-control">
@@ -46,11 +47,11 @@
           <input id="name" name="name" type="text" placeholder="Enter your full name" />
       </div>
       <div class="midleContainer">
-        <div class="form-control">
+        <div class="midle-form-control">
           <label for="email">Email Address</label>
           <input id="email" name="email" type="email" placeholder="Enter your email address" />
       </div>
-        <div class="form-control">
+        <div class="midle-form-control">
           <label for="Phone">Phone</label>
           <input id="phone" name="phone" type="tel" placeholder="Enter your phone number" />
       </div>
@@ -62,10 +63,27 @@
       </div>
       <button class="btn" type="submit">Submit</button>
   </form>
+</div>
 
 
-
-
+<section id="footer">
+  <div class="footerLeftContainer">
+    <img src="../../assets/logo.svg" alt="logofooter" />
+    <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+  </div>
+  <div class="footerRightContainer">
+    <div>
+      <p>Team</p>
+      <p>Services</p>
+      <p>About Us</p>
+    </div>
+    <div>
+      <p>Press</p>
+      <p>Projects</p>
+      <p>Privacy Policy</p>
+    </div>
+  </div>
+</section>
 
     <script src="../../navbar.js"></script>
     <script src="./contactUs.js"></script>
