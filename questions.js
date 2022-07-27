@@ -22,3 +22,9 @@ function callbackFunction(event) {
   .then((json) => console.log(json));
   form.reset()
 };
+
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("We will send a email in no time!");
+});
