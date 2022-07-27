@@ -27,7 +27,10 @@ function callbackFunction(event) {
   form.reset()
 };
 
-
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Thank you for your message!");
+});
 
 
 
