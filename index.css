@@ -91,6 +91,10 @@ ul a {
 .logosContainer img {
   width: 150px;
   padding: 0 5%;
+  filter: grayscale(100%);
+}
+.logosContainer img:hover {
+  filter: grayscale(0%);
 }
 
 #projects {
