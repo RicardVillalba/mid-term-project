@@ -152,6 +152,21 @@ h4 {
   z-index: 20;
 }
 
+.burger.open span:nth-child(1) {
+  transform: rotate(45deg) translateY(3.5px) translateX(5px);
+}
+.burger.open span:nth-child(2) {
+  opacity: 0;
+  width: 0;
+}
+.burger.open span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-3.5px) translateX(5px) ;
+}
+
+.burger span {
+  transition: all ease-in 0.3s;
+}
+
 .mobileNav {
   display: none;
 }
