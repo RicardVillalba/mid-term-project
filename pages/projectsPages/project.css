@@ -1,170 +1,153 @@
 #project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 140px;
 }
 
 .projectContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .title {
-    width: 80%;
-    text-transform: capitalize;
+  width: 80%;
+  text-transform: capitalize;
 }
 
 .subTitle {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .subTitle span {
-    color: black;
+  color: black;
 }
 
-
-.projectContent  {
-    width: 80%;
-    margin-top: 80px;
+.projectContent {
+  width: 80%;
+  margin-top: 80px;
 }
 .projectContent img {
-    width: 100%;
-    height: 444px;
-    
+  width: 100%;
+  height: 444px;
 }
 .projectContent p {
-    width: 100%;
-    margin-top: 70px;
+  width: 100%;
+  margin-top: 70px;
 }
 
 #projectQuestions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 500px;
+  background-color: #ffc600;
+  margin-top: 136px;
+}
+
+#projectQuestions form {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+#projectQuestions form input {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  height: 80px;
+  color: #292e47;
+  padding-left: 5%;
+}
+#projectQuestions form button {
+  display: flex;
+  justify-content: space-around;
+  width: 160px;
+  height: 80px;
+  padding-left: 5%;
+}
+
+#projectQuestions form input::-webkit-input-placeholder {
+  background-image: url("../../assets/letter.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position: 0% 50%;
+  background-origin: padding-box;
+  padding-left: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+  .title h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .subTitle {
+    width: 60%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .subTitle span {
+    color: black;
+  }
+
+  .projectContent {
+    width: 80%;
+    margin-top: 60px;
+  }
+  .projectContent img {
+    width: 100%;
+    height: 222px;
+  }
+  .projectContent p {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  #projectQuestions {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 500px;
+    height: 500px;
     background-color: #ffc600;
-    margin-top: 136px;
+    margin-top: 0;
   }
-
 
   #projectQuestions form {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
+    height: 50%;
+    padding-top: 10%;
   }
 
   #projectQuestions form input {
-    display: flex;
-    justify-content: space-around;
-    width: 400px;
+    width: 100%;
     height: 80px;
     color: #292e47;
+    padding-left: 30px;
     padding-left: 5%;
   }
+
   #projectQuestions form button {
-    display: flex;
-    justify-content: space-around;
-    width: 160px;
-    height: 80px;
-    padding-left: 5%;
+    width: 100%;
   }
-
-  #projectQuestions form input::-webkit-input-placeholder {
-    background-image: url("../../assets/letter.svg");
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position: 0% 50%;
-    background-origin: padding-box;
-    padding-left: 40px;
-  }
-
-
-
-
-@media only screen and (max-width: 700px) {
-
- .title h1 {
-    font-size: 30px;
-    text-align: center;
- }
-  
-    .subTitle {
-        width: 60%;
-        height: 80px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 20px;
-        text-align: center;
-    }
-    
-    .subTitle span {
-        color: black;
-    }
-
-    
-
-    .projectContent  {
-        width: 80%;
-        margin-top: 60px;
-    }
-    .projectContent img {
-        width: 100%;
-        height: 222px;
-        
-    }
-    .projectContent p {
-        width: 100%;
-        margin-top: 30px;
-    }
- 
-    #projectQuestions {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 500px;
-        background-color: #ffc600;
-        margin-top: 0;
-      }
-    
-      #projectQuestions form {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 60%;
-        height: 50%;
-        padding-top: 10%;
-      }
-    
-      #projectQuestions form input {
-        width: 100%;
-        height: 80px;
-        color: #292e47;
-        padding-left: 30px;
-        padding-left: 5%;
-      }
-    
-      #projectQuestions form button {
-        width: 100%;
-      }
-    
-    
-   
-    
-   
-    
-
 }
